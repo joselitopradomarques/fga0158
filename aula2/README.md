@@ -43,6 +43,8 @@ FGA0158 - Orientação por Objetos
    ```a / v```  
    ```a ^ b```  
    Faça a leitura dos valores e apresentação dos resultados via console.
+
+   Comentário: a ideia é que se realize todas operações utilizando int ou pode utilizar outro formado de variável numérica?
    
    
 

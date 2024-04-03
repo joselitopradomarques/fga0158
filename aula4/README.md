@@ -120,11 +120,78 @@ capaz de gerar aleatoriamente os números compreendidos entre ```0``` e ```k```
 
 ## Estudo dirigido para a primeira avaliação
 
-1 - O que são tipos de dados primitivos? Quais os tipos de dados primitivos de
-Java? 
+1 - O que são tipos de dados primitivos? Quais os tipos de dados primitivos deJava? 
 
-2 - O que é o _type casting_? Quais os tipos de _type casting_? Dê ao menos dois
-exemplos de instruções para cada tipo de _type-casting_.
+	Resposta:  Dados primitivos representam valores simples e básicos. Eles não são objetos e não possuem métodos.
+
+**Os seus tipos são:**
+
+- **Tipos Numéricos Integrais:**
+  - `byte`: Armazena números inteiros de 8 bits.
+  - `short`: Armazena números inteiros de 16 bits.
+  - `int`: Armazena números inteiros de 32 bits.
+  - `long`: Armazena números inteiros de 64 bits.
+
+- **Tipos Numéricos de Ponto Flutuante:**
+  - `float`: Armazena números de ponto flutuante de precisão simples de 32 bits.
+  - `double`: Armazena números de ponto flutuante de precisão dupla de 64 bits.
+
+- **Tipo Caractere:**
+  - `char`: Armazena um único caractere Unicode de 16 bits.
+
+- **Tipo Booleano:**
+  - `boolean`: Armazena valores verdadeiro ou falso.
+
+
+2 - O que é o _type casting_? Quais os tipos de _type casting_? Dê ao menos dois exemplos de instruções para cada tipo de _type-casting_.
+
+	Type casting é o processo de mudança de tipo de variável.
+	Quando um valor maior é transformado em um tipo menor, a parte menos significativa é truncada.
+	Os dois tipos de type casting são:
+
+***Upcasting***
+
+	1) Typecasting Implícito (Widening Conversion):
+		Esse tipo de typecasting implica na mudança de um tipo de dado com um menor intervalo para o tupo de um dado com intervalo maior. 
+		Essa conversão é feita de maneira automática pelo compilador.
+		Dessa forma, não é necessário declarar o tipo para o qual o valor será alterado. A alteração é feita de forma automática em função do tipo da variável de destino.
+		Não há truncamento nesse tipo.
+
+```java
+public static void main (String[] args) {
+	byte a = 19;	// Declaração de um byte
+	short b = a;	// Transformação para short
+}
+```
+
+```java
+public static void main (String[] args) {
+	long c = 1900;	// Declaração de um valor do tipo long
+	int d = c;		// Transformação para tipo int
+}
+```
+***Downcasting***
+
+	2) Typecasting Explícito (Narrowing Conversion)
+	Para esse tipo, há uma perda de informação devido ao truncamento realizado.
+	Dessa forma, é necessário manter explícito qual é o formato desejado para o tipo destinado após a conversão.
+
+```java
+public static void main (String[] args) {
+float a = 3.46f;
+int b = (int) a; // Perda dos valores decimais de a
+}
+```
+```java
+public static void main (String[] args) {
+double c = 3.64d;
+int d = (int) c; // Perda dos valores decimais de c
+}
+```
+
+***Atenção***
+
+	Valores como byte ou qualquer outro podem ser convertidos para boolean ou tipo char e vice-versa.
 
 3 - Suponha que as seguintes instruções estejam no método `main` de seu
 programa. Apresente o que será impresso como resultado dos comandos de impressão:

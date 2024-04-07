@@ -259,13 +259,13 @@ public static void main (String[] args) {
 `a`, `b` e `c` assumirem nas linhas x, y e z, respectivamente, os seguintes
 valores: 
 
-- a = 1, b = 2, c = 3 
-- a = 3, b = 2, c = 4 
-- a = 5, b = 3, c = 4 
-- a = 3, b = 5, c = 3 
-- a = 6, b = 3, c = 3 
-- a = 5, b = 5, c = 5 
-- a = 4, b = 2, c = 4
+- a = 1, b = 2, c = 3 => Resultado : "Os valores informados não formam um triangulo."
+- a = 3, b = 2, c = 4 => Resultado : "É um triangulo escaleno."
+- a = 5, b = 3, c = 4 => Resultado : "É um triangulo retangulo." 
+- a = 3, b = 5, c = 3 => Resultado : "É um triangulo isosceles."
+- a = 6, b = 3, c = 3 => Resultado : "Os valores informados não formam um triangulo."
+- a = 5, b = 5, c = 5 => Resultado : "É um triangulo equilatero."
+- a = 4, b = 2, c = 4 => Resultado : "Os valores informados não formam um triangulo."
 
 ```java
 public class Exercicio {

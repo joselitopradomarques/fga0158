@@ -1,3 +1,5 @@
+
+
 UnB - Universidade de Brasilia  
 FGA - Faculdade do Gama  
 FGA0158 - Orientação por Objetos
@@ -215,18 +217,36 @@ public static void main (String[] args) {
    System.out.println (resposta2); 
 }
 ```
+A evolução das variáveis são:
+
+	Deploying:
+	1) resposta1 = "13" -> Convertida em string e concatenada
+	2) resposta1 = "1310" -> Convertida em string e concatenada
+	3) resposta1 = "131030" -> Convertida em string e concatenada
+	4) resposta2 = resposta2 + a + b + c -> Adição das variáveis
+
+A seguir, as respostas finais no console:
+
+    resposta1 = "131030"
+    resposta2 = "53"
 
 4 - No seguinte trecho de código, apresente as linhas em que ocorrem
 type-casting. Apresente ainda qual será o resultado da execução das instruções.
 
 ```java
 public static void main (String[] args) {
+    // Type Casting: Não há typecasting pois o valor de A já foi salvo como String na variável strA
     String strA = JOptionPane.showInputDialog("Informe o valor de A"); //leu-se o valor 13.5
+    // Type Casting: Não há typecasting pois o valor de B já foi salvo como String na variável strB
     String strB = JOptionPane.showInputDialog("Informe o valor de B"); //leu-se o valor 5
+    // Type Casting: 
     float a = Float.parseFloat(strA);
+    // Type Casting: 
     int b = Integer.parseInteger(strB); 
     
-    JOptionPane.showMessageDialog(null, "A + B = " + (int)(a + b)); 
+    // Type Casting: 
+    JOptionPane.showMessageDialog(null, "A + B = " + (int)(a + b));
+    // Type Casting: 
     JOptionPane.showMessageDialog(null, "A - B = " + (a - b));
 }
 ```

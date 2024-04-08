@@ -432,4 +432,27 @@ Resposta:
     }
 ```
 
+  0: ñ-primo
+  1: ñ-primo
+  2: primo
+  3: primo
+  4: ñ-primo
+  5: primo
+  6: ñ-primo
+  7: primo
+  8: ñ-primo
+  9: ñ-primo
+  10: ñ-primo
+  11: primo
+  12: ñ-primo
+  13: primo
+  14: ñ-primo
+  15: ñ-primo
+  16: ñ-primo
+  17: primo
+  18: ñ-primo
+  19: primo
+  20: ñ-primo
+
+
 10 -

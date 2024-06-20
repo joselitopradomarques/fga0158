@@ -7,7 +7,7 @@ Exercícios de Revisão em Programação de Computadores
 > [!NOTE]   
 > Foram disponibilizados nesse diretório alguns exemplos em Java para geração de
 > números aleatórios, entrada e saída de arquivos em texto. Vocês podem se
-> basear nesses exemplos para a resolução dos seus exercícios. 
+> basear nesses exemplos para a resolução dos seus exercícios.
 
 
 ##### Exercício 1: Matrizes e Vetores

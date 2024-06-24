@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2022-02-02T20:03:22.395Z" agent="5.0 (X11)" etag="G4iSEkKZCjPosBh7xFvm" version="15.5.8" type="device"><diagram id="XGz1S8H0rsjV67n7qKDh" name="Page-1">7ZpRj5s4EIB/TaTtQ05gSJp9bLLda9WtWjWV2j5VDjjgrsGccTbJ/vobYwMBJ9tsLxy6K1KU4Bnb2PPNOIPNyFskuz8FzuL3PCRshJxwN/JuRgj5vg/fSrDXggm61oJI0FCL3FqwpI/ECB0j3dCQ5I2KknMmadYUBjxNSSAbMiwE3zarrTlr3jXDEbEEywAzW/qFhjLW0tnEqeVvCI3i8s6uYzQJLisbQR7jkG8PRN7rkbcQnEt9lewWhCnblXbR7W5PaKuBCZLKcxrcTd75j/hHtP5yi/Zfv+Hv9/O3Y9PLA2YbM+EFZsGGwVAFNuOW+9IY+ZYmDKdQmq95KpdG40IZMxqlcB3AaIgAwQMRkoIdXxmF5BlIg5iy8A7v+UaNOZc4uC9L85gL+gjdYmb6BLWQxiXQtFFjqVqC2AGpIDnU+Vgawm2J3uNdo+IdzqURBJwxnOV0VU0jwSKi6ZxLyRNTyVgIpkN2J03vVkAhEAhPiBR7qFI28I0PmCCYmeK29ih3amTxgTd5/tR4svHiqOq6Bg0XhvUzuCOLO89g/q9UO5hTGzxMXRZABL8nC844EL5JufYEylhLVDoDI2t50hXyDAc0je6KOjd+LflkDKBEHNquWRE2MQ1DkiqMXGKJNTMFKOMw5MJAkzl8wI4L54/JaAIDX0DZrcvwUdWFXPAU5oJpgY+AQ2yJcorzWJ8OJNsBDHA0PQ846or35AhvNPDuivcE9cx7avGGxW/DJKzrA/WuqL+c9Uzds6hbjBkt2GnGZUbj/hLgBFAxUhP9rIDfjF2LumdT944QZnhF2EeeU0m56l/oui3yfcF1Hf88urOO4PpPpWpXL4ZovjRwt+9F/OWTxPlhvgY3cHj9hz54w8W9wet7cb+2vCEn8kOGrhSLintx9cChp8EDLuwB0zP/ADrzgNlxD3AHD/iXPOD6zOf2zjyg3BU7cIGIyE9lan/1Ykjuu4IPpPuGb2/W5TzBYqDeIXW/7yTQtfP+SK/6A/YO9+v6zvZce8cu0unegL077Nd9p3iuvXGXb1ZggwAP/+4dkvdQ76mdfSQzQlNWbIA1WE//2qgjQ3NUpV3CyXbwXdjH0fKxLB8K/AOdcpOxga905rSuoQ5JwAXWe3CqziYNiSi2Datbw1VkfosBrkpBoPYkGieIugJYZNVuBLKsLYtFW/JLc9durZQzpWwPWx11qRbQoVMZeSVqNarUnq2uN9LLSpPjU2qF6PEga0XiQTipsB2Zg1Z9Bgouosu3OKFMee4bwh6I6lXZTiblwelZUfL0kaVfnmM/88iyfES6fHwc29z+z8UH+p/Fx/iI3g4Q5zcIkLM3BzqLEGRHyILhPAfHdJ56q8PkDgfmeW4acfKlj+qIaBtTSZaQPqh7bgXOijRBhU5okoTmCyX/nI87a/LxbDxHX7nojI79HPdh9YNInqt1RgWc4gQLRLGXTyH9wWlAgZjSYz11SdVaFP6eQH30U6AuugxRKNbvZRW6g5fbvNd/Aw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2024-06-24T16:00:08.542Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="IYMU4PBYeJ_CyYM0Iju0" version="24.5.4" type="github">
+  <diagram id="XGz1S8H0rsjV67n7qKDh" name="Page-1">
+    <mxGraphModel dx="1015" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-1" value="Calculadora" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="80" width="160" height="398" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-2" value="op1: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-5" value="op2: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-6" value="resultado: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="104" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-4" value="Calculadora()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-7" value="Calculadora(o1: int, o2: int)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="138" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-9" value="setOp2(op: int): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="164" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-8" value="setOp1(op: int): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="190" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-10" value="getResultado(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="216" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-11" value="somar(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="242" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-16" value="subtracao(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="268" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mrZrrW-lPa4XVpbarNua-1" value="divisao(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L5K4zajgfWF2yXYa_kBI-1">
+          <mxGeometry y="294" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="mrZrrW-lPa4XVpbarNua-2" value="multiplicacao(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="L5K4zajgfWF2yXYa_kBI-1">
+          <mxGeometry y="320" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-14" value="getOp1(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="346" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-15" value="getOp2(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="L5K4zajgfWF2yXYa_kBI-1" vertex="1">
+          <mxGeometry y="372" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-12" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;c1:Calculadora&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;op1 = 2&lt;br&gt;op2 = 3&lt;br&gt;resultado = 5&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="80" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-13" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;c2:Calculadora&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;op1 = 2&lt;br&gt;op2 = -2&lt;br&gt;resultado = 0&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="190" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-23" value="Classe Calculadora" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="180" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="L5K4zajgfWF2yXYa_kBI-24" value="Objetos c1 e c2, instanciados a partir de Calculadora" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="420" y="30" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

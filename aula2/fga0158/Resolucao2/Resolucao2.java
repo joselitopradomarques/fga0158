@@ -26,8 +26,6 @@ public class Resolucao2 {
 		//cálculo das operações
 		int resultado = a + b;
 		System.out.println("O resultado da soma é " + ***);
-		.
-		.
-		.
+
 	}
 }

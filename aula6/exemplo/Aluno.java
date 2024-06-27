@@ -18,8 +18,8 @@ public class Aluno {
 	Aluno(int mat, String n, String c, float i) {
 		matricula = mat;
 		nome = n;
-		curso = c; 
-		ira = i; 
+		curso = c;
+		ira = i;
 	}
 
 	int getMatricula() {

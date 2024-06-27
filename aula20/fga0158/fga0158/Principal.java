@@ -2,6 +2,8 @@ package fga0158;
 
 import javax.swing.JOptionPane;
 
+import teste.Calculadora;
+
 public class Principal {
 	
 	static Calculadora c;

@@ -19,16 +19,55 @@ public class Aluno {
     Aluno(int mat, String n, String c, float i) {
         matricula = mat;
         nome = n;
-        c = curso;
-        i = ira;
+        curso = c;
+        ira = i;
     }
 
 
     // Criação de outros métodos de acesso e de definição
 
+    int getMatricula() {
+        return matricula;
+    }
+
+    void setMatricula(int mat) {
+        matricula = mat;
+    }
+
     String getNome() {
         return nome;
     }
-    
+
+    void setNome(String n) {
+        nome = n;
+    }   
+
+    String getCurso() {
+        return curso;
+    }
+
+    void setCurso(String c) {
+        curso = c;
+    }
+
+    float getIra() {
+        return ira;
+    }
+
+    void setIra(float i) {
+        ira = i;
+    }
+
+    String imprimirAluno() {
+		String resposta = "";
+		
+		resposta += "MATRICULA: " + matricula + '\n';
+		resposta += "NOME: " + nome + '\n';
+		resposta += "CURSO: " + curso + '\n'; 
+		resposta += "IRA: " + ira + '\n';
+		resposta += "---------------------\n";
+		
+		return resposta;
+	}
 
 }

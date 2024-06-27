@@ -1,4 +1,4 @@
-package fga0158;
+package aula07;
 
 public class Calculadora {
 
@@ -36,6 +36,27 @@ public class Calculadora {
 		resposta = operando1 + operando2; 
 		return resposta;
 	}
+
+	// Metodo subtracao
+	int calcularSubtracao() {
+		resposta = operando1 - operando2;
+		return resposta;
+	}
+	
+	int calcularMultiplicacao() {
+		resposta = operando1*operando2;
+		return resposta;
+	}
+	
+	int calcularDivisao() {
+		resposta = operando1/operando2;
+		return resposta;
+	}
+	
+	int inverterSinal() {
+		resposta = operando1*(-1);
+		return resposta;
+	}
 	
 	
 	//Metodo "destrutor" de JAVA
@@ -49,26 +70,5 @@ public class Calculadora {
 				           "****************\n\n"); 
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

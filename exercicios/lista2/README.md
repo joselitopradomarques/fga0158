@@ -30,9 +30,20 @@ Referências bibliográficas:
 --- 
 
 1 - Pesquise nas bibliografias sugeridas as definições sobre os seguinte termos:  
-  a) Classe  
-  b) Objeto  
-  c) Elementos de classe  
+  a) Classe
+    Um modelo que possui uma estrutura fixa composta por métodos (ou operações) e atributos é denominada de classe, conforme Jones Page. Segundo o autor, “uma classe é o estêncil a partir do qual são criados (gerados) objetos.” Dessa forma, os objetos gerados a partir dessa classe possuem a mesma estrutura e comportamento. Assim, caso um objeto pertença à determinada classe, diz-se que que esse objeto é uma instância dessa classe.
+    De forma exemplificada, existe uma estrutura que define um tipo de objeto. Por exemplo, uma casa sempre terá paredes, portas e janelas e esses parâmetros definem uma casa. Porém, o tipo de parede, portas ou janelas muda conforme a casa. A essas características de uma casa se atribui o nome de atributos. Além disso, cada casa possui um tipo de parede, porta ou janelas.
+    Porém, há diferenças entre objetos criados a partir da mesma classe. Primeiramente, cada objeto possui um identificador único; além de contar com estados distintos em relação a outros objetos. Em relação ao exemplo dado acima, cada casa possui um tipo de parede, porta ou janelas.
+
+  
+  b) Objeto
+    O conceito de objeto pretende, principalmente, delinear a definição de uma instância de uma classe. Portanto, a partir de uma classe, que possui uma estrutura, comportamento e atributos, um objeto é uma instância que possui estados para cada atributo e que pode se comportar conforme está definido na classe.
+
+  c) Elementos de classe
+  	Uma classe é composta por grandes grupos como atributos e métodos (ou operações). Apesar dessa generalização, o autor Jones Meiler Page identifica mais um elemento que seria responsável pelas exceções ou invariantes.
+
+	  Atributos representam informações de um objeto, porém, o termo não pode ser confundido com variável. Para diferenciar as semânticas entre os termos, utiliza-se a diferenciação entre concretude e abstração: uma variável corresponde a um parâmetro concreto, enquanto um atributo reside no campo abstrato. Em orientação a objetos, todas variáveis são atributos mas nem todo atributo é uma variável.
+
   d) Métodos construtores  
   e) Métodos destrutores  
   f) Estado  

@@ -67,7 +67,7 @@ mesmo objeto? Justifique sua resposta.
 6 - Quais objetos uma referência de uma classe consegue referenciar? 
 
 7 - Uma referência de uma subclasse pode referenciar um objeto de alguma
-superclasse? Justifique sua resposta. 
+superclasse? Justifique sua resposta.
 
 8 - Elementos privados de uma superclasse são herdados e acessíveis por suas
 subclasses?  

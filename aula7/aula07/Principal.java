@@ -12,6 +12,8 @@ public class Principal extends JFrame{
 	 * 
 	 * Quando nenhum argumento é passado ao operando2, o código trava; enquanto deveria continuar normalmente.
 	 * Qual é o erro que está acontecendo?
+	 * 
+	 * Verificar se no vídeo do professor, ele chega a executar alguma operação sem declarar algum dos operadores
 	 */
 
 	
@@ -40,9 +42,9 @@ public class Principal extends JFrame{
 			int operando1 = Integer.parseInt(strOp1);
 			int operando2 = Integer.parseInt(strOp2);
 			char operando3 = strOp3.charAt(0);
-			int resultado = 0;
 			
 			calc = new Calculadora(operando1, operando2);
+			int resultado; // Deve-se definir o atributo antes pois se não o fizer, embaixo ele será definido muitas vezes
 			
 			//instanciacao do objeto Calculadora
 			switch (operando3) {

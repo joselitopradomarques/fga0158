@@ -50,14 +50,14 @@ Calculadora com estado: op1: <valor>, op2: <valor>, resultado: <valor>``` em
 que ```<valor>``` é o valor que o atributo armazena no momento. Exemplo de
 execução do programa:  
 ```
-Usuário desejar realizar um cálculo? (s/n)
+  Usuário desejar realizar um cálculo? (s/n)
 S
 Informe o valor do operando1: 
 13
 Informe o valor do operando2: 
 12
 Informe a operação desejada: (+, -, *, /, ! -> inversão de sinal)
-+
++ 
 O resultado de 13 + 12 é 25.
 
 Usuário desejar realizar um cálculo? (s/n)

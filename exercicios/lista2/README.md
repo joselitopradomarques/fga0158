@@ -53,29 +53,100 @@ Referências bibliográficas:
     
     - Métodos (ou operações):
 
-    Métodos são estruturas pelas quais os atributos são utilizados. Ao serem definidos, há uma indicação de qual ou quais argumentos são necessários e se houver saída, o método indica qual é o tipo desse dado. Conforme Jones Meiler Page, um atributo típico requer duas operações padrões: obter (_get_) e especificar *set* .
+    Métodos são estruturas pelas quais os atributos são utilizados. Ao serem definidos, há uma indicação de qual ou quais argumentos são necessários e se houver saída, o método indica qual é o tipo desse dado. Conforme Jones Meiler Page, um atributo típico requer duas operações padrões: obter (get)  (método que possibilita o acesso do estado de um atributo) e especificar (set) (métodos que permitem a modificação de um estado de um atributo).
 
   d) Métodos construtores
   
+    Além de métodos que acessam ou modificam estados de atributos, há métodos responsáveis para criar instâncias de uma classe. Dessa forma, o autor Booch define métodos construtores como operadores que inicializam um objeto e/ou seus estados.
+  
+  e) Métodos destrutores
 
-  e) Métodos destrutores  
-  f) Estado  
-  g) Retenção de estado  
-  h) Associação entre objetos  
+    Em contrapartida aos métodos construtores, existem métodos cuja função é liberar os estados de atributos de um objeto e/ou destroem um objeto em si.Ou seja, é um método para limpeza e liberação de recursos.
+
+  f) Estado
+
+    Estados se referem à combinação de todos atributos de um objeto, sejam estáticos, sejam dinâmicos; e os valores atuais desses atributos. 
+
+  g) Retenção de estado
+    
+    Retenção de estado é a capacidade de um objeto de manter os estados atuais de seus atributos, mesmo que os métodos que tenham inicializado, acessado ou modificado determinado atributo tenha sido finalizado.
+
+  h) Associação entre objetos
+
+    Uma associação é uma forma semântica a partir da qual duas classes podem interagir. Em uma associação, pode haver a construção de novos métodos e atributos, de forma que esses elementos estejam em uma classe de associação.
+
+    Destrinchar essa parte de associações. Listar os tipos de associações e definir seus conceitos
+  
   i) Pacotes
-  j) Modificadores de acesso  
-  k) Ocultação de informação  
-  l) Escopo de elementos  
-  m) Modificadores de escopo  
-  n) Herança  
+
+    O autor Jones Page define o termo como uma coleção de classes em uma biblioteca adquirida. Existe para uma particular aplicação. Em relação à hierarquia, um pacote pode estar contido em outro. 
+
+    [VERIFICAR SE O CONCEITO É ESSE MESMO]
+
+  j) Modificadores de acesso
+  Cada propriedade de uma classe conta com um prefixo, seja antes do nome do atributo ou do método, para que se indique a visibilidade da propriedade. Há quatro possibilidades, cada qual com um nível de privacidade.
+
+      '+': atributos ou métodos públicos em uma determinada classe
+        Assim, determinada propriedade (pública) será visível para qualquer objeto e essa propriedade será herdada pelas suas subclasses
+
+      '#': atributos ou métodos protegidos em uma determinada classe
+        Assim, determinada propriedade será visível para os objetos da mesma classe para os objetos das subclasses, de forma que esta propriedade será herdada pelas subclasses
+
+      '-': atributos ou métodos privados
+        Assim, a propriedade só será visível para o objeto em si. Não há herança para subclasses
+
+  k) Ocultação de informação O conceito de ocultação de informação é englobado por um conceito maior que é o encapsulamento. O encapsulamento, conforme Jones Page, é um controle acerca de informações que estão contidas em objetos e atributos. Dividi-se em exterior e interior. 
+
+  A ocultação de informações implica em ocultação de informações e de implementações, ou seja, atributos e métodos. Assim, a visualização de propriedades de uma classe ficam limitadas à sua estrutura de encapsulamento.
+
+  l) Escopo de elementos Refere-se à visibilidade e acessibilidade de variáveis, métodos e outros quaisquer membros de um classe, portanto, não se restringindo a atributos ou métodos. Para definir a visibilidade desses elementos, há níveis de acesso.
+
+    1. Público (public): elementos com esse escopo são acessíveis em qualquer parte do programa. E podem ser usados por qualquer outra clase.
+
+    2. Protegido (protected): elementos com esse escopo são acessíveis apenas dentro da própria classe e nas suas subclasses (mesmo que estejam em pacotes diferentes) e por outras classes dentro do mesmo pacote.
+
+    3. Pacote (package-private or default): elementos com esse escopo são acessíveis apenas dentro do mesmo pacote.
+
+    4. Privado (private): elementos com esse escopo são acessíveis apenas dentro da própria classe. Eles não podem ser acessados por nenhuma outra classe ou código, mesmo que sejam subclasses.
+
+
+  m) Modificadores de escopo Para definir a visibilidade e acessibilidade de cada elemento, utiliza-se palavras-chave de classes, métodos e variáveis. 
+
+    1. Público (public): elemento acessível de qualquer lugar, tanto dentro do mesmo pacote quando de outros.
+
+    2. Protegido (protected): elemento acessível apenas dentro do mesmo pacote e subclasses (neste caso, podem estar em diferentes pacotes).
+
+    3. Default (sem modificador): neste caso, o elemento se torna acessível apenas dentro do mesmo pacote. 
+
+    4. Privado (private): elementos são apenas acessados dentro da própria classe onde foi definido.
+
+  n) Herança A herança é a habilidade de uma classe implicitamente ter seus atributos e métodos definidos a partir de uma outra classe, porém, como se tivessem sido implementados na sua classe. Assim, a classe A, que herda elementos de B, é chamada de subclasse de B e B é a superclasse de A.
+
   o) Generalização
+     É o processo utilizado para organizar e estruturar classes de forma hierárquica. Generalização envolve uma estrutura comum abstrata para uma ou várias classes que podem ser herdadas.
+
   p) Especialização
-  q) Polimorfismo  
-  r) Sobrescrita de métodos  
-  s) Sobrecarga de métodos  
-  t) Polimorfismo por coerção  
-  u) Polimorfismo por inclusão  
-  v) Polimorfismo paramétrico 
+    Especialização é o processo inverno no qual classes mais específicas, dependendo dos casos, são criadas levando em conta tanto a estrutura da superclasse quanto as necessidades específicas daquela classe.
+
+  q) Polimorfismo
+    O autor Jones Mieler Page utiliza duas definições para o termo polimorfismo. 
+    
+        A primeira delas é "a habilidade pela qual uma única operação ou nome de atributo pode ser definido em mais de uma classe e assumir implementações diferentes ...".
+      
+        Em sua segunda definição, o autor explicita que polimorfismo é a propriedade por meio da qual um atributo ou variável pode paontar para (ou manter o identificador de) objetos de diferentes classes em momentos diferentes. 
+
+  r) Sobrescrita de métodos
+    Também chamado de overriding, é a redefinição de um método, definido em uma classe A, e em uma das subclasses de A. Assim, os métodos são existentes tanto na classe quanto na sua superclasse. E, dessa forma, os métodos nas subclasses são definidos localmente.
+
+  s) Sobrecarga de métodos Também chamado de overloading de um nome ou de um símbolo ocorre quando diversos métodos, definidos na mesma classe, tem esse nome ou símbolo. Por exempplo, no caso de métodos construtores alternativo e padrão.
+
+  t) Polimorfismo por coerção
+    Esse processo ocorre quando um valor é convertido de um tipo para outro automaticamente pelo próprio compilador.
+
+  u) Polimorfismo por inclusão
+    Esse processo ocorre quando uma classe derivada é usada no lugar da classe base. A classe derivada herda os métodos e propriedades da classe base, permitindo que se use instâncias da classe derivada onde a classe base é esperada.
+
+  v) Polimorfismo paramétrico Esse processo ocorre quando um método ou classe pode operar sobre diferentes tipos de dados sem conhecer de antemão os tipos específicos. 
 
 2 - Apresente os modificadores de acesso informando qual o nível de visibilidade
 que cada um deles fornece. 

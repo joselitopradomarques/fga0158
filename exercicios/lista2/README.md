@@ -136,17 +136,24 @@ Referências bibliográficas:
         Em sua segunda definição, o autor explicita que polimorfismo é a propriedade por meio da qual um atributo ou variável pode paontar para (ou manter o identificador de) objetos de diferentes classes em momentos diferentes. 
 
   r) Sobrescrita de métodos
-    Também chamado de overriding, é a redefinição de um método, definido em uma classe A, e em uma das subclasses de A. Assim, os métodos são existentes tanto na classe quanto na sua superclasse. E, dessa forma, os métodos nas subclasses são definidos localmente.
+  
+      Também chamado de overriding, é a redefinição de um método, definido em uma classe A, e em uma das subclasses de A. Assim, os métodos são existentes tanto na classe quanto na sua superclasse. E, dessa forma, os métodos nas subclasses são definidos localmente.
 
-  s) Sobrecarga de métodos Também chamado de overloading de um nome ou de um símbolo ocorre quando diversos métodos, definidos na mesma classe, tem esse nome ou símbolo. Por exempplo, no caso de métodos construtores alternativo e padrão.
+  s) Sobrecarga de métodos
+    
+     Também chamado de overloading de um nome ou de um símbolo ocorre quando diversos métodos, definidos na mesma classe, tem esse nome ou símbolo. Por exempplo, no caso de métodos construtores alternativo e padrão.
 
   t) Polimorfismo por coerção
+
     Esse processo ocorre quando um valor é convertido de um tipo para outro automaticamente pelo próprio compilador.
 
   u) Polimorfismo por inclusão
+
     Esse processo ocorre quando uma classe derivada é usada no lugar da classe base. A classe derivada herda os métodos e propriedades da classe base, permitindo que se use instâncias da classe derivada onde a classe base é esperada.
 
-  v) Polimorfismo paramétrico Esse processo ocorre quando um método ou classe pode operar sobre diferentes tipos de dados sem conhecer de antemão os tipos específicos. 
+  v) Polimorfismo paramétrico
+    
+     Esse processo ocorre quando um método ou classe pode operar sobre diferentes tipos de dados sem conhecer de antemão os tipos específicos. 
 
 2 - Apresente os modificadores de acesso informando qual o nível de visibilidade
 que cada um deles fornece. 

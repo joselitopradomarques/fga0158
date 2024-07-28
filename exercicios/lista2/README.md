@@ -84,6 +84,7 @@ Referências bibliográficas:
     [VERIFICAR SE O CONCEITO É ESSE MESMO]
 
   j) Modificadores de acesso
+
   Cada propriedade de uma classe conta com um prefixo, seja antes do nome do atributo ou do método, para que se indique a visibilidade da propriedade. Há quatro possibilidades, cada qual com um nível de privacidade.
 
       '+': atributos ou métodos públicos em uma determinada classe
@@ -95,11 +96,15 @@ Referências bibliográficas:
       '-': atributos ou métodos privados
         Assim, a propriedade só será visível para o objeto em si. Não há herança para subclasses
 
-  k) Ocultação de informação O conceito de ocultação de informação é englobado por um conceito maior que é o encapsulamento. O encapsulamento, conforme Jones Page, é um controle acerca de informações que estão contidas em objetos e atributos. Dividi-se em exterior e interior. 
+  k) Ocultação de informação
+  
+    O conceito de ocultação de informação é englobado por um conceito maior que é o encapsulamento. O encapsulamento, conforme Jones Page, é um controle acerca de informações que estão contidas em objetos e atributos. Dividi-se em exterior e interior. 
 
-  A ocultação de informações implica em ocultação de informações e de implementações, ou seja, atributos e métodos. Assim, a visualização de propriedades de uma classe ficam limitadas à sua estrutura de encapsulamento.
+    A ocultação de informações implica em ocultação de informações e de implementações, ou seja, atributos e métodos. Assim, a visualização de propriedades de uma classe ficam limitadas à sua estrutura de encapsulamento.
 
-  l) Escopo de elementos Refere-se à visibilidade e acessibilidade de variáveis, métodos e outros quaisquer membros de um classe, portanto, não se restringindo a atributos ou métodos. Para definir a visibilidade desses elementos, há níveis de acesso.
+  l) Escopo de elementos
+      
+    Refere-se à visibilidade e acessibilidade de variáveis, métodos e outros quaisquer membros de um classe, portanto, não se restringindo a atributos ou métodos. Para definir a visibilidade desses elementos, há níveis de acesso.
 
     1. Público (public): elementos com esse escopo são acessíveis em qualquer parte do programa. E podem ser usados por qualquer outra clase.
 
@@ -110,7 +115,9 @@ Referências bibliográficas:
     4. Privado (private): elementos com esse escopo são acessíveis apenas dentro da própria classe. Eles não podem ser acessados por nenhuma outra classe ou código, mesmo que sejam subclasses.
 
 
-  m) Modificadores de escopo Para definir a visibilidade e acessibilidade de cada elemento, utiliza-se palavras-chave de classes, métodos e variáveis. 
+  m) Modificadores de escopo
+  
+  Para definir a visibilidade e acessibilidade de cada elemento, utiliza-se palavras-chave de classes, métodos e variáveis. 
 
     1. Público (public): elemento acessível de qualquer lugar, tanto dentro do mesmo pacote quando de outros.
 
@@ -120,15 +127,21 @@ Referências bibliográficas:
 
     4. Privado (private): elementos são apenas acessados dentro da própria classe onde foi definido.
 
-  n) Herança A herança é a habilidade de uma classe implicitamente ter seus atributos e métodos definidos a partir de uma outra classe, porém, como se tivessem sido implementados na sua classe. Assim, a classe A, que herda elementos de B, é chamada de subclasse de B e B é a superclasse de A.
+  n) Herança
+    
+    A herança é a habilidade de uma classe implicitamente ter seus atributos e métodos definidos a partir de uma outra classe, porém, como se tivessem sido implementados na sua classe. Assim, a classe A, que herda elementos de B, é chamada de subclasse de B e B é a superclasse de A.
 
   o) Generalização
+
      É o processo utilizado para organizar e estruturar classes de forma hierárquica. Generalização envolve uma estrutura comum abstrata para uma ou várias classes que podem ser herdadas.
 
   p) Especialização
-    Especialização é o processo inverno no qual classes mais específicas, dependendo dos casos, são criadas levando em conta tanto a estrutura da superclasse quanto as necessidades específicas daquela classe.
+
+      Especialização é o processo inverno no qual classes mais específicas, dependendo dos casos, são criadas levando em conta tanto a estrutura da superclasse quanto as necessidades específicas daquela classe.
 
   q) Polimorfismo
+
+
     O autor Jones Mieler Page utiliza duas definições para o termo polimorfismo. 
     
         A primeira delas é "a habilidade pela qual uma única operação ou nome de atributo pode ser definido em mais de uma classe e assumir implementações diferentes ...".
@@ -158,30 +171,77 @@ Referências bibliográficas:
 2 - Apresente os modificadores de acesso informando qual o nível de visibilidade
 que cada um deles fornece. 
 
+    1. Público (public): elemento acessível de qualquer lugar, tanto dentro do mesmo pacote quando de outros.
+
+    2. Protegido (protected): elemento acessível apenas dentro do mesmo pacote e subclasses (neste caso, podem estar em diferentes pacotes).
+
+    3. Default (sem modificador): neste caso, o elemento se torna acessível apenas dentro do mesmo pacote. 
+
+    4. Privado (private): elementos são apenas acessados dentro da própria classe onde foi definido.
+
 3 - Qual a forma de comunicação empregada no paradigma de Orientação por
 Objetos?
 
-4 - A quem pertence um elemento cujo escopo é dinâmico?  
+    O paradigma de Orientação a Objetos utiliza em sua comunicação o diálogo entre ação-objeto. Assim, o usuário ou o programa seleciona um objeto e posteriormente a ação a ser realizada sobre esse objeto.
+    
+    Todo esse diálogo pode ser traduzido ou simplificado através de mensagens. Portanto, cada mensagem contém um objeto e uma ação a ser realizada. Além disso, uma mensagem contém um remetente e um destinatário.
+
+4 - A quem pertence um elemento cujo escopo é dinâmico?
+
+    O pertencimento de um elemento cujo escopo é dinâmico varia conforme o método que utiliza o elemento. Em vários casos, um elemento é utilizado por um método em uma classe mas posteriormente esse elemento passa a ser utilizado por outra classe. Assim, o elemento pertence à classe que opera o elemento naquele instante. 
 
 5 - Se dois ou mais objetos possuem o mesmo estado, significa que eles são o
-mesmo objeto? Justifique sua resposta. 
+mesmo objeto? Justifique sua resposta.
 
-6 - Quais objetos uma referência de uma classe consegue referenciar? 
+    Por mais que dois objetos tenham o mesmo estado, não significa que ambos sejam o mesmo objeto. As identidades dos objetos serão diferentes, independente da igualdade entre seus estados.
+
+6 - Quais objetos uma referência de uma classe consegue referenciar?
+
+    Uma referência em uma classe consegue referenciar instâncias da própria classe dependendo do tipo. Também pode referenciar subclasses dependendo dos modificadores de acesso utilizados. Além disso, o polimorfismo pode ser utilizado para que o objeto se adeque ao tipo necessário para a utilização de determinado método em uma subclasse. 
 
 7 - Uma referência de uma subclasse pode referenciar um objeto de alguma
 superclasse? Justifique sua resposta.
 
+    Em uma estrutura de super classe e suas subclasses, há também estruturas dos tipos esperados. Assim, uma referência de uma super classe possui elementos que são gerais o suficiente para serem compatíveis com elementos de suas subclasses mas o contrário não é esperado devido às especializações esperadas enquanto a hierarquia desce para classes inferiores. 
+
+    Dessa forma, uma referência de uma subclasse não pode referenciar objetos de uma superclasse.
+
+
 8 - Elementos privados de uma superclasse são herdados e acessíveis por suas
-subclasses?  
+subclasses?
+    
+    Elementos privados em uma superclasse não podem ser acessíveis nem herdados pelas subclasses. Quando um elemento é definido como privado, o acesso só pode ser feito dentro da mesma classe na qual foi o objeto foi instanciado.
 
 9 - Considere a seguinte descrição: uma classe A possui 2 atributos e 3 métodos,
 uma classe B (herdeira de A) possui outros 2 atributos e 3 métodos. Uma
 referência do tipo A referencia um objeto do tipo B. Quantos atributos e métodos
-estão disponíveis para a referência A? 
+estão disponíveis para a referência A?
+
+    Para essa análise, dividi-se os acessos disponíveis em duas classes: A e B
+
+    - Para a classe A:
+      . Atributos: os atributos podem ser acessados pela instância A. 
+      . Métodos: os métodos podem ser acessados pela instância A.
+
+    - Para classe B:
+      . Atributos: os atributos não poderão ser acessados via instância A.
+      . Métodos: os métodos só poderão ser acessados caso o modificador de acesso permita e se os métodos de B subsescrevam os métodos de A.
+
+      Portanto, a instância A pode acessar 2 atributos e 3 métodos.
 
 10 - Considerando um conjunto de classes hierarquicamente dispostas, qual é a
 vantagem de se utilizar uma referência da superclasse mais alta nessa
 hierarquia?
+
+    A orientação a objetos permite vátias vantagens ao se utilizar hierarquia em classes.
+
+    - Generalização e especialização: Em um conjunto de classes hierarquicamente dispostas, a generalização e especialização disrespeito a uma superclasse que pode conter diversas características comuns às subclasses. Isso facilita a organização e a definição daquela estrutura e das subjacências.
+
+    - Abstração: dialogando com a vantagem acima, a abstração permite com que se evidencie apenas características essenciais para um comportamento comum entre vários outros. 
+
+    - Polimorfismo: essa característica permite com que se trate objetos de subclasses de maneira uniforme através da estrutura delienada pela superclasse. 
+
+    - Flexibilidade: A flexibilidade possibilitada pelo polimorfismo de classes hierárquicas é potencializada no qual se pode adicionar novas subclasses sem que se modifique o código da superclasse.
 
 --- 
 
@@ -193,18 +253,32 @@ Esse diagrama de classes está parcialmente implementado no diretório desse
 exercício. O código é compilável e executável. O arquivo .drawio desse diagrama
 encontra-se no diretório dessa lista.  
 
-Com base nesse diagrama responda as seguintes perguntas:  
+Com base nesse diagrama responda as seguintes perguntas: 
+
 1 - No diagrama de classes estão apresentados vários elementos sublinhados. O
-que isso significa?  
+que isso significa?
+
+    Quando elementos se encontram sublinhados em um diagrama, é indicado um membro estático (da classe), em vez de um membro da instância.
+
 
 2 - O que significam os nomes nas origens das setas fechadas entre classes? O
 que significam os * na outra extremidade das setas? 
 
-3 - O que significa a setas abertas presentes no pacote app? 
+    Os nomes nas origens das setas indicam a natureza dessa dependência. Pois a seta indica uma dependência ou uma associação entre as classes que estão ligadas apesar de se encontrarem em pacotes diferentes. 
 
-4 - O que significa a seta tracejada entre MenuPrincipal e MenuAluno? 
+    Os asteriscos indicam multiplicidade. Isso significa que algunas instâncias da classe de origem podem estar associadas a uma instância da classe de destino.
+
+3 - O que significa a setas abertas presentes no pacote app? 
+    
+    Setas abertas como essas presentes dentro do pacote app significam que já uma dependência entre as classes. Assim, as classes Professor e Aluno possuem uma dependência da classe PessoaFisica já que um professor e um aluno são pessoas físicas. Assim, as características das pessoas físicas se encontram tanto em alunos quanto em professores.
+
+
+4 - O que significa a seta tracejada entre MenuPrincipal e MenuAluno?
+
+    A seta tracejada possui um significado similar às setas abertas entre as classes Professor Aluno e PessoaFísica pois demonstram dependência entre as classes MenuPrincipal e MenuAluno. Essa dependência semanticamente é explicitada pela necessidade dos métodos de MenuAluno terem que estar presentes no MenuPrincipal.
 
 5 - Existe algum tipo de polimorfismo nesse diagrama? Se sim, qual? 
+  No caso desse diagrama, há dois casos de polimorfismo que relacionam Professor e Aluno às PessoasFisicas. 
 
 6 - Termine a implementação desse diagrama com a implementação do cadastro de
 professores. Pode utilizar o cadastro de alunos como base. 

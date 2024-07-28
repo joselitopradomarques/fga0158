@@ -278,7 +278,8 @@ que significam os * na outra extremidade das setas?
     A seta tracejada possui um significado similar às setas abertas entre as classes Professor Aluno e PessoaFísica pois demonstram dependência entre as classes MenuPrincipal e MenuAluno. Essa dependência semanticamente é explicitada pela necessidade dos métodos de MenuAluno terem que estar presentes no MenuPrincipal.
 
 5 - Existe algum tipo de polimorfismo nesse diagrama? Se sim, qual? 
-  No caso desse diagrama, há dois casos de polimorfismo que relacionam Professor e Aluno às PessoasFisicas. 
+    
+    No caso desse diagrama, há dois casos de polimorfismo que relacionam Professor e Aluno às PessoasFisicas. 
 
 6 - Termine a implementação desse diagrama com a implementação do cadastro de
 professores. Pode utilizar o cadastro de alunos como base. 

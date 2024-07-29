@@ -272,7 +272,7 @@ que significam os * na outra extremidade das setas?
 
 4 - O que significa a seta tracejada entre MenuPrincipal e MenuAluno?
 
-    A seta tracejada possui um significado similar às setas abertas entre as classes Professor Aluno e PessoaFísica pois demonstram dependência entre as classes MenuPrincipal e MenuAluno. Essa dependência semanticamente é explicitada pela necessidade dos métodos de MenuAluno terem que estar presentes no MenuPrincipal.
+    Significa a implementação de uma interface e uma dependência. A seta tracejada possui um significado similar às setas abertas entre as classes Professor Aluno e PessoaFísica pois demonstram dependência entre as classes MenuPrincipal e MenuAluno. Essa dependência semanticamente é explicitada pela necessidade dos métodos de MenuAluno terem que estar presentes no MenuPrincipal. Além de serem necessárias para a implementação de uma interface.
 
 5 - Existe algum tipo de polimorfismo nesse diagrama? Se sim, qual? 
     

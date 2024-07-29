@@ -75,13 +75,10 @@ Referências bibliográficas:
 
     Uma associação é uma forma semântica a partir da qual duas classes podem interagir. Em uma associação, pode haver a construção de novos métodos e atributos, de forma que esses elementos estejam em uma classe de associação.
 
-    Destrinchar essa parte de associações. Listar os tipos de associações e definir seus conceitos
   
   i) Pacotes
 
     O autor Jones Page define o termo como uma coleção de classes em uma biblioteca adquirida. Existe para uma particular aplicação. Em relação à hierarquia, um pacote pode estar contido em outro. 
-
-    [VERIFICAR SE O CONCEITO É ESSE MESMO]
 
   j) Modificadores de acesso
 
@@ -233,7 +230,7 @@ estão disponíveis para a referência A?
 vantagem de se utilizar uma referência da superclasse mais alta nessa
 hierarquia?
 
-    A orientação a objetos permite vátias vantagens ao se utilizar hierarquia em classes.
+    A orientação a objetos permite várias vantagens ao se utilizar hierarquia em classes.
 
     - Generalização e especialização: Em um conjunto de classes hierarquicamente dispostas, a generalização e especialização disrespeito a uma superclasse que pode conter diversas características comuns às subclasses. Isso facilita a organização e a definição daquela estrutura e das subjacências.
 

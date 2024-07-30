@@ -26,6 +26,7 @@
   - `pesquisarTurma(String codigoTurma)`: Encontra uma turma pelo código.
   - `atualizarTurma(String codigoTurma, Turma t)`: Atualiza informações de uma turma.
   - `removerTurma(Turma t)`: Remove uma turma.
+  - `imprimirListaPresenca(String codigoTurma)`: Imprime a lista de presença com o nome da disciplina, nome do professor, código da turma e lista de alunos.
 
 ### 1.4. Classes Adicionais
 
@@ -55,7 +56,7 @@
 
 - **CadastroProfessor**: Implementar métodos para adicionar, pesquisar, atualizar e remover professores.
 - **CadastroDisciplina**: Implementar métodos para adicionar, pesquisar, atualizar e remover disciplinas.
-- **CadastroTurma**: Implementar métodos para adicionar, pesquisar, atualizar e remover turmas.
+- **CadastroTurma**: Implementar métodos para adicionar, pesquisar, atualizar e remover turmas, e para imprimir a lista de presença.
 
 ### 3.2. Implementar Classes de Domínio
 
@@ -67,6 +68,11 @@
 - **CampoEmBrancoException**: Criar a classe para a exceção.
 - **DisciplinaNaoAtribuidaException**: Criar a classe para a exceção.
 - **ProfessorNaoAtribuidoException**: Criar a classe para a exceção.
+
+### 3.4. Implementar Métodos Específicos
+
+- **Associar Disciplinas e Professores**: Garantir que ao cadastrar uma turma, uma disciplina e um professor sejam associados corretamente.
+- **Imprimir Lista de Presença**: Implementar um método para listar a presença de uma turma conforme especificado.
 
 ## 4. Atualizações no Menu Principal
 
@@ -83,3 +89,43 @@
 - **MenuProfessor**: Interface para realizar operações de cadastro, pesquisa, atualização e remoção de professores.
 - **MenuDisciplina**: Interface para realizar operações de cadastro, pesquisa, atualização e remoção de disciplinas.
 - **MenuTurma**: Interface para realizar operações de cadastro, pesquisa, atualização e remoção de turmas e imprimir a lista de presença.
+
+## 5. Validação e Exceções
+
+### 5.1. Validação de Dados
+
+- **Validação de Campos**: Verificar se campos obrigatórios não estão em branco e se CPF e email têm formatos válidos.
+
+### 5.2. Tratamento de Exceções
+
+- **Tratamento Adequado**: Garantir que as exceções criadas sejam lançadas e tratadas corretamente em todas as operações.
+
+## 6. Testes
+
+### 6.1. Testes Unitários
+
+- **Cobertura de Código**: Escrever testes unitários para verificar o funcionamento correto das classes e métodos.
+
+### 6.2. Testes de Integração
+
+- **Integração de Componentes**: Realizar testes para garantir que a interação entre diferentes componentes do sistema esteja funcionando corretamente.
+
+## 7. Documentação
+
+### 7.1. Comentários e Javadoc
+
+- **Documentação do Código**: Adicionar comentários e documentação Javadoc para garantir clareza no código.
+
+### 7.2. README no GitHub
+
+- **Instruções e Descrição**: Incluir informações detalhadas no README do repositório, como uma descrição do projeto, instruções para executar o programa e exemplos de uso.
+
+## 8. Interface do Usuário
+
+### 8.1. Menus Adicionais
+
+- **Menus Específicos**: Implementar menus específicos para cada tipo de cadastro (alunos, professores, disciplinas, turmas) com opções completas de CRUD (Create, Read, Update, Delete).
+
+### 8.2. Mensagens de Erro e Sucesso
+
+- **Comunicação com o Usuário**: Fornecer mensagens claras e informativas para o usuário em caso de sucesso ou erro nas operações.

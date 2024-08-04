@@ -20,10 +20,10 @@ O diagrama de classes abaixo representa parte do que já está implementado.
 
 ## Cenário da Oficina Mecânica:  
 Um sistema de gestão acadêmica é responsável, basicamente, por realizar o
-cadastro de todos os elementos pertencentes ao domínio de uma universidade. Por
+cadastro de todos os elementos pertencentes ao domínio de uma universidade.Por
 exemplo, o sistema é responsável por cadastrar todos os alunos e professores,
 todas as disciplinas, todas as turmas de cada disciplina e, por fim, todas as
-salas de aulas. 
+salas de aulas.  
 
 Esse sistem deve também ser capaz de criar turmas para cada disciplina e, para
 cada turma, deve ser capaz de associar um professor e matricular os alunos,
